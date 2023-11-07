@@ -114,6 +114,12 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
+# A simple 404 page
+error_404:
+  enable: true
+  subtitle: "页面没有找到"
+  background: 
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
