@@ -4,8 +4,8 @@
 
 # Site
 title: Danchar's Blog
-subtitle: ''
-description: ''
+subtitle: 邓权的博客
+description:
 keywords:
 author: Danchar
 language: zh-CN
@@ -13,13 +13,13 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://danchar.top
 # permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 ## abbrlink config
 abbrlink:
   alg: crc32      #support crc16(default) and crc32 进制
@@ -46,7 +46,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
