@@ -14,6 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://danchar.top
+root: /
 # permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink.html
 permalink_defaults:
@@ -113,12 +114,6 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
-
-# A simple 404 page
-error_404:
-  enable: true
-  subtitle: "页面没有找到"
-  background: 
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
