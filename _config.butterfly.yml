@@ -41,11 +41,11 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/site_img.png
+favicon: https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/site_img.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/qqhead.jpg
+  img: https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/qqhead.jpg
   effect: false # 头像会一直转圈
 
 # Disable all banner image
@@ -55,7 +55,7 @@ disable_top_img: false
 index_img:
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: /img/index_img.jpg
+default_top_img: https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/index_img.jpg
 
 # The banner image of archive page
 archive_img:
@@ -89,30 +89,30 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-    - /img/top_img.jpg
-    - /img/top_img_2.jpg
-    - /img/top_img_4.jpg
-    - /img/top_img_5.jpg
-    - /img/top_img_6.jpg
-    - /img/top_img_7.jpg
-    - /img/top_img_8.jpg
-    - /img/top_img_9.jpg
-    - /img/top_img_10.jpg
-    - /img/top_img_11.jpg
-    - /img/top_img_12.jpg
-    - /img/top_img_13.jpg
+    - https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/top_img.jpg
+    - https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/top_img_2.jpg
+    - https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/top_img_4.jpg
+    - https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/top_img_5.jpg
+    - https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/top_img_6.jpg
+    - https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/top_img_7.jpg
+    - https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/top_img_8.jpg
+    - https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/top_img_9.jpg
+    - https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/top_img_10.jpg
+    - https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/top_img_11.jpg
+    - https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/top_img_12.jpg
+    - https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/top_img_13.jpg
     
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  flink: https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/friend_404.gif
+  post_page: https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/404.jpg
 
 # A simple 404 page
 error_404:
   enable: true
   subtitle: 'Page Not Found'
-  background: /img/page_404.png
+  background: https://danchar-oss.oss-cn-chengdu.aliyuncs.com/img/page_404.png
 
 post_meta:
   page: # Home Page
