@@ -1,5 +1,5 @@
 - class_name: 友情链接
-  class_desc: 卷王们
+  class_desc: 
   link_list:
     - name: GanBro
       link: https://ganbro.github.io/
