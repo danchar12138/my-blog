@@ -1,7 +1,7 @@
 ---
 title: Danchar-Blog部署指南
 categories:
-  - 博客相关
+  - 博客搭建
 tags:
   - Hexo
   - Butterfly
