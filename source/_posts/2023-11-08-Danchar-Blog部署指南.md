@@ -1,9 +1,12 @@
 ---
 title: Danchar-Blog部署指南
+categories:
+  - 博客相关
+tags:
+  - Hexo
+  - Butterfly
 abbrlink: b6cb746c
 date: 2023-11-08 12:54:15
-categories: [博客相关]
-tags: [Hexo, Butterfly]
 ---
 # Danchar's Blog
 
