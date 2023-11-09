@@ -531,10 +531,10 @@ artalk:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: true
+chat_btn: false
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
-chat_hide_show: true
+chat_hide_show: false
 
 # chatra
 # https://chatra.io/
@@ -557,7 +557,7 @@ daovoice:
 # crisp
 # https://crisp.chat/en/
 crisp:
-  enable: true
+  enable: false
   website_id: 68755409-88be-4f9c-b60a-38a74a418877
 
 # messenger
