@@ -301,7 +301,7 @@ newest_comments:
   enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
-  storage: 10 # unit: mins, save data to localStorage
+  storage: 0 # unit: mins, save data to localStorage
   avatar: true
 
 # Bottom right button (右下角按鈕)
@@ -422,8 +422,8 @@ comments:
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
   lazyload: false
-  count: false # Display comment count in post's top_img
-  card_post_count: false # Display comment count in Home Page
+  count: true  # Display comment count in post's top_img
+  card_post_count: true # Display comment count in Home Page
 
 # disqus
 # https://disqus.com/
@@ -495,7 +495,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://danchar.netlify.app/.netlify/functions/twikoo
+  envId: https://comments.danchar.top/.netlify/functions/twikoo
   region: ap-chengdu
   visitor: false
   option:
@@ -676,7 +676,7 @@ enter_transitions: true
 activate_power_mode:
   enable: true
   colorful: true # open particle animation (冒光特效)
-  shake: true #  open shake (抖動特效)
+  shake: false #  open shake (抖動特效)
   mobile: false
 
 # Background effects (背景特效)
@@ -854,10 +854,9 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: true
+  enable: false
   exclude:
-    # - xxxx
-    # - xxxx
+    - /js/
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
@@ -887,10 +886,10 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
-  blur: false
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -927,7 +926,7 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
-    - <div class="aplayer no-destroy" data-id="7190854739" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-mutex="true" data-autoplay="true" data-order="random" data-preload="auto" data-theme="#3F51B5"></div>
+    # - <div class="aplayer no-destroy" data-id="7190854739" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-mutex="true" data-autoplay="true" data-order="random" data-preload="auto" data-theme="#3F51B5"></div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
